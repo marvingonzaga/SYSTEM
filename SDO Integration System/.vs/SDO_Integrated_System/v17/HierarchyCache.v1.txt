@@ -1,0 +1,416 @@
+﻿++Solution 'SDO_Integrated_System' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:SDO_Integrated_System.sln
+++SDO_Integrated_System
+i:{00000000-0000-0000-0000-000000000000}:SDO_Integrated_System
+++Properties
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\properties\
+++References
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++Config
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\config\
+++ICT_Trainings
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ict_trainings\
+++Inventory
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\inventory\
+++Resources
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\
+++The_Guardian
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\the_guardian\
+++258882022_314652134045261_4267564725262391161_n.ico
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\258882022_314652134045261_4267564725262391161_n.ico
+++ANTIQUE LOGO.ico
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\antique logo.ico
+++App.config
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\app.config
+++Button_WOC.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\button_woc.cs
+++CertAttendancePreviewFrm.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\certattendancepreviewfrm.cs
+++Certificate.rpt
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\certificate.rpt
+++Certificate2.rpt
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\certificate2.rpt
+++CertificateOfAttendance.rpt
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\certificateofattendance.rpt
+++CertParticipationPreviewFrm.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\certparticipationpreviewfrm.cs
+++CertTemplate.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\certtemplate.cs
+++Dashboard.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\dashboard.cs
+++DataSet_ListOfUsers.xsd
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\dataset_listofusers.xsd
+++DataSet1.xsd
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\dataset1.xsd
+++DS_ListOfTraining.xsd
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ds_listoftraining.xsd
+++Feedback.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\feedback.cs
+++ictSystemsDataSet.xsd
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset.xsd
+++ictSystemsDataSet1.xsd
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset1.xsd
+++ictSystemsDataSet31.xsd
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset31.xsd
+++ictSystemsDataSet41.xsd
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset41.xsd
+++Login.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\login.cs
+++logo.png
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\logo.png
+++packages.config
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\packages.config
+++PortFoDBDataSet.xsd
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\portfodbdataset.xsd
+++PostTest.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\posttest.cs
+++Pre_Test.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\pre_test.cs
+++Program.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\program.cs
+++ProjectSoldierAdmin.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\projectsoldieradmin.cs
+++ProjectSoldierSuperAdmin.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\projectsoldiersuperadmin.cs
+++ProjectSoldierUser.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\projectsoldieruser.cs
+++Questionnaire.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\questionnaire.cs
+++Questionnaire2.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\questionnaire2.cs
+++ResetPasswordForm.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resetpasswordform.cs
+++RJButton.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\rjbutton.cs
+++SettingForm.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\settingform.cs
+++Tile.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\tile.cs
+++AssemblyInfo.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\properties\assemblyinfo.cs
+++licenses.licx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\properties\licenses.licx
+++Resources.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\properties\resources.resx
+++Settings.settings
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\properties\settings.settings
+++alphablendtextbox
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++AxShockwaveFlashObjects
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++CrystalDecisions.CrystalReports.Engine
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++CrystalDecisions.ReportSource
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++CrystalDecisions.Shared
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++CrystalDecisions.Windows.Forms
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.BonusSkins.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.Charts.v19.2.Core
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.CodeParser.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.Data.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.DataAccess.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.Images.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.Office.v19.2.Core
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.Pdf.v19.2.Core
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.PivotGrid.v19.2.Core
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.Printing.v19.2.Core
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.RichEdit.v19.2.Core
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.RichEdit.v19.2.Export
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.Sparkline.v19.2.Core
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.Utils.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.Utils.v19.2.UI
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.Xpo.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.XtraBars.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.XtraCharts.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.XtraEditors.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.XtraGauges.v19.2.Core
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.XtraGrid.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.XtraLayout.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.XtraPrinting.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.XtraReports.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.XtraReports.v19.2.Extensions
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.XtraRichEdit.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++DevExpress.XtraVerticalGrid.v19.2
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++EntityFramework
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++EntityFramework.SqlServer
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++Microsoft.CSharp
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++Microsoft.Office.Interop.Excel
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++System
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++System.ComponentModel.DataAnnotations
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++System.Configuration
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++System.Core
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++System.Data
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++System.Data.DataSetExtensions
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++System.Deployment
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++System.Drawing
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++System.Runtime.Serialization
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++System.Security
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++System.Web
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++System.Web.Services
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++System.Windows.Forms
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++System.Xml
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++System.Xml.Linq
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++Zen.Barcode.Core
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++zxing
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++zxing.presentation
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:
+++connString.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\config\connstring.cs
+++Forms
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ict_trainings\forms\
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\inventory\forms\
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\the_guardian\forms\
+++Reports
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ict_trainings\reports\
+++DataSets
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\inventory\datasets\
+++cert1.bmp
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\cert1.bmp
+++cert1.png
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\cert1.png
+++cert2.png
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\cert2.png
+++favorites_shield_100px.png
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\favorites_shield_100px.png
+++favorites_shield_127px.png
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\favorites_shield_127px.png
+++fork_lift_100px.png
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\fork_lift_100px.png
+++fork_lift_127px.png
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\fork_lift_127px.png
+++ICTTrainings_100px.png
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\icttrainings_100px.png
+++ICTTrainings_127px.png
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\icttrainings_127px.png
+++police_100px.png
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\police_100px.png
+++police_127px.png
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\police_127px.png
+++ProjectSoldier.bmp
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\projectsoldier.bmp
+++settings_100px.png
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\settings_100px.png
+++settings_127px.png
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\settings_127px.png
+++settings_40px.png
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\settings_40px.png
+++settings_50px.png
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resources\settings_50px.png
+++CertAttendancePreviewFrm.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\certattendancepreviewfrm.designer.cs
+++CertAttendancePreviewFrm.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\certattendancepreviewfrm.resx
+++Certificate.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\certificate.cs
+++Certificate2.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\certificate2.cs
+++CertificateOfAttendance.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\certificateofattendance.cs
+++CertParticipationPreviewFrm.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\certparticipationpreviewfrm.designer.cs
+++CertParticipationPreviewFrm.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\certparticipationpreviewfrm.resx
+++CertTemplate.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\certtemplate.designer.cs
+++CertTemplate.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\certtemplate.resx
+++Dashboard.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\dashboard.designer.cs
+++Dashboard.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\dashboard.resx
+++DataSet_ListOfUsers.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\dataset_listofusers.designer.cs
+++DataSet_ListOfUsers.xsc
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\dataset_listofusers.xsc
+++DataSet_ListOfUsers.xss
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\dataset_listofusers.xss
+++DataSet1.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\dataset1.cs
+++DataSet1.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\dataset1.designer.cs
+++DataSet1.xsc
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\dataset1.xsc
+++DataSet1.xss
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\dataset1.xss
+++DS_ListOfTraining.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ds_listoftraining.designer.cs
+++DS_ListOfTraining.xsc
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ds_listoftraining.xsc
+++DS_ListOfTraining.xss
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ds_listoftraining.xss
+++Feedback.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\feedback.designer.cs
+++Feedback.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\feedback.resx
+++ictSystemsDataSet.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset.designer.cs
+++ictSystemsDataSet.xsc
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset.xsc
+++ictSystemsDataSet.xss
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset.xss
+++ictSystemsDataSet1.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset1.designer.cs
+++ictSystemsDataSet1.xsc
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset1.xsc
+++ictSystemsDataSet1.xss
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset1.xss
+++ictSystemsDataSet31.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset31.designer.cs
+++ictSystemsDataSet31.xsc
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset31.xsc
+++ictSystemsDataSet31.xss
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset31.xss
+++ictSystemsDataSet41.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset41.designer.cs
+++ictSystemsDataSet41.xsc
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset41.xsc
+++ictSystemsDataSet41.xss
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ictsystemsdataset41.xss
+++Login.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\login.designer.cs
+++Login.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\login.resx
+++PortFoDBDataSet.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\portfodbdataset.designer.cs
+++PortFoDBDataSet.xsc
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\portfodbdataset.xsc
+++PortFoDBDataSet.xss
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\portfodbdataset.xss
+++PostTest.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\posttest.designer.cs
+++PostTest.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\posttest.resx
+++Pre_Test.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\pre_test.designer.cs
+++Pre_Test.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\pre_test.resx
+++ProjectSoldierAdmin.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\projectsoldieradmin.designer.cs
+++ProjectSoldierAdmin.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\projectsoldieradmin.resx
+++ProjectSoldierSuperAdmin.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\projectsoldiersuperadmin.designer.cs
+++ProjectSoldierSuperAdmin.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\projectsoldiersuperadmin.resx
+++ProjectSoldierUser.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\projectsoldieruser.designer.cs
+++ProjectSoldierUser.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\projectsoldieruser.resx
+++Questionnaire.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\questionnaire.designer.cs
+++Questionnaire.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\questionnaire.resx
+++Questionnaire2.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\questionnaire2.designer.cs
+++Questionnaire2.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\questionnaire2.resx
+++ResetPasswordForm.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resetpasswordform.designer.cs
+++ResetPasswordForm.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\resetpasswordform.resx
+++SettingForm.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\settingform.designer.cs
+++SettingForm.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\settingform.resx
+++Resources.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\properties\resources.designer.cs
+++Settings.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\properties\settings.designer.cs
+++CertAttendancePrintFrm.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ict_trainings\forms\certattendanceprintfrm.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\the_guardian\forms\certattendanceprintfrm.cs
+++UserInterface.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ict_trainings\forms\userinterface.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\the_guardian\forms\userinterface.cs
+++AccountRegistration.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\inventory\forms\accountregistration.cs
+++MainForm.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\inventory\forms\mainform.cs
+++SchoolForm.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\inventory\forms\schoolform.cs
+++TeacherRegistration.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\inventory\forms\teacherregistration.cs
+++Questionaire.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\the_guardian\forms\questionaire.cs
+++CertAttendancePrintFrm.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ict_trainings\forms\certattendanceprintfrm.designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\the_guardian\forms\certattendanceprintfrm.designer.cs
+++CertAttendancePrintFrm.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ict_trainings\forms\certattendanceprintfrm.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\the_guardian\forms\certattendanceprintfrm.resx
+++UserInterface.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ict_trainings\forms\userinterface.designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\the_guardian\forms\userinterface.designer.cs
+++UserInterface.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\ict_trainings\forms\userinterface.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\the_guardian\forms\userinterface.resx
+++AccountRegistration.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\inventory\forms\accountregistration.designer.cs
+++AccountRegistration.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\inventory\forms\accountregistration.resx
+++MainForm.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\inventory\forms\mainform.designer.cs
+++MainForm.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\inventory\forms\mainform.resx
+++SchoolForm.designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\inventory\forms\schoolform.designer.cs
+++SchoolForm.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\inventory\forms\schoolform.resx
+++TeacherRegistration.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\inventory\forms\teacherregistration.designer.cs
+++TeacherRegistration.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\inventory\forms\teacherregistration.resx
+++Questionaire.Designer.cs
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\the_guardian\forms\questionaire.designer.cs
+++Questionaire.resx
+i:{6b44b2c3-20fe-419b-9524-977e888ab4de}:c:\users\ict\desktop\system\sdo integration system\portfplus\the_guardian\forms\questionaire.resx
