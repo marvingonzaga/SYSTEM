@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDO_Integrated_System", "PortfPlus\SDO_Integrated_System.csproj", "{6B44B2C3-20FE-419B-9524-977E888AB4DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B44B2C3-20FE-419B-9524-977E888AB4DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B44B2C3-20FE-419B-9524-977E888AB4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B44B2C3-20FE-419B-9524-977E888AB4DE}.Debug|x64.ActiveCfg = Debug|x64
+		{6B44B2C3-20FE-419B-9524-977E888AB4DE}.Debug|x64.Build.0 = Debug|x64
+		{6B44B2C3-20FE-419B-9524-977E888AB4DE}.Debug|x86.ActiveCfg = Debug|x86
+		{6B44B2C3-20FE-419B-9524-977E888AB4DE}.Debug|x86.Build.0 = Debug|x86
+		{6B44B2C3-20FE-419B-9524-977E888AB4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B44B2C3-20FE-419B-9524-977E888AB4DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B44B2C3-20FE-419B-9524-977E888AB4DE}.Release|x64.ActiveCfg = Release|x64
+		{6B44B2C3-20FE-419B-9524-977E888AB4DE}.Release|x64.Build.0 = Release|x64
+		{6B44B2C3-20FE-419B-9524-977E888AB4DE}.Release|x86.ActiveCfg = Release|x86
+		{6B44B2C3-20FE-419B-9524-977E888AB4DE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60ABBB96-5D25-4F70-8EA7-A85239C72E66}
+	EndGlobalSection
+EndGlobal

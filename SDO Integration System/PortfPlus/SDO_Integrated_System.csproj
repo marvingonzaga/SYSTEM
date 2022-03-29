@@ -1,0 +1,620 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6B44B2C3-20FE-419B-9524-977E888AB4DE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SDO_Integrated_System</RootNamespace>
+    <AssemblyName>SDO_Integrated_System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>258882022_314652134045261_4267564725262391161_n.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="alphablendtextbox, Version=1.0.1270.35793, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Pictures\alphablendtextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.BonusSkins.v19.2" />
+    <Reference Include="DevExpress.Charts.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v19.2" />
+    <Reference Include="DevExpress.DataAccess.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v19.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v19.2.Export, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v19.2" />
+    <Reference Include="DevExpress.Utils.v19.2.UI, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v19.2" />
+    <Reference Include="DevExpress.Sparkline.v19.2.Core" />
+    <Reference Include="DevExpress.XtraCharts.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v19.2" />
+    <Reference Include="DevExpress.XtraGauges.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v19.2.Extensions, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Downloads\Microsoft.Office.Interop.Excel\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Zen.Barcode.Core, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b5ae55aa76d2d9de, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zen.Barcode.Rendering.Framework.3.1.10729.1\lib\Zen.Barcode.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing, Version=0.16.8.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.8\lib\net47\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.8.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.8\lib\net47\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Button_WOC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CertAttendancePreviewFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CertAttendancePreviewFrm.Designer.cs">
+      <DependentUpon>CertAttendancePreviewFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Certificate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Certificate.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Certificate2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Certificate2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CertificateOfAttendance.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CertificateOfAttendance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CertTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CertTemplate.Designer.cs">
+      <DependentUpon>CertTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Config\connString.cs" />
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_ListOfUsers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_ListOfUsers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_ListOfTraining.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_ListOfTraining.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feedback.Designer.cs">
+      <DependentUpon>Feedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ictSystemsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ictSystemsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ictSystemsDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ictSystemsDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ictSystemsDataSet31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ictSystemsDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ictSystemsDataSet41.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ictSystemsDataSet41.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICT_Trainings\Forms\CertAttendancePrintFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ICT_Trainings\Forms\CertAttendancePrintFrm.Designer.cs">
+      <DependentUpon>CertAttendancePrintFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ICT_Trainings\Forms\UserInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ICT_Trainings\Forms\UserInterface.Designer.cs">
+      <DependentUpon>UserInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Forms\TeacherRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Forms\TeacherRegistration.Designer.cs">
+      <DependentUpon>TeacherRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Forms\AccountRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Forms\AccountRegistration.Designer.cs">
+      <DependentUpon>AccountRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Forms\SchoolForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Forms\SchoolForm.designer.cs">
+      <DependentUpon>SchoolForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PostTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PostTest.Designer.cs">
+      <DependentUpon>PostTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectSoldierSuperAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectSoldierSuperAdmin.Designer.cs">
+      <DependentUpon>ProjectSoldierSuperAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectSoldierAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectSoldierAdmin.Designer.cs">
+      <DependentUpon>ProjectSoldierAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PortFoDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PortFoDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CertParticipationPreviewFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CertParticipationPreviewFrm.Designer.cs">
+      <DependentUpon>CertParticipationPreviewFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Questionnaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Questionnaire.Designer.cs">
+      <DependentUpon>Questionnaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pre_Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pre_Test.Designer.cs">
+      <DependentUpon>Pre_Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Questionnaire2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Questionnaire2.Designer.cs">
+      <DependentUpon>Questionnaire2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RJButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ResetPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResetPasswordForm.Designer.cs">
+      <DependentUpon>ResetPasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The_Guardian\Forms\CertAttendancePrintFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The_Guardian\Forms\CertAttendancePrintFrm.Designer.cs">
+      <DependentUpon>CertAttendancePrintFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The_Guardian\Forms\Questionaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The_Guardian\Forms\Questionaire.Designer.cs">
+      <DependentUpon>Questionaire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The_Guardian\Forms\UserInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The_Guardian\Forms\UserInterface.Designer.cs">
+      <DependentUpon>UserInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tile.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectSoldierUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectSoldierUser.Designer.cs">
+      <DependentUpon>ProjectSoldierUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingForm.Designer.cs">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CertAttendancePreviewFrm.resx">
+      <DependentUpon>CertAttendancePreviewFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Certificate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Certificate.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Certificate2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Certificate2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CertificateOfAttendance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CertificateOfAttendance.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CertTemplate.resx">
+      <DependentUpon>CertTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Feedback.resx">
+      <DependentUpon>Feedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ICT_Trainings\Forms\CertAttendancePrintFrm.resx">
+      <DependentUpon>CertAttendancePrintFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ICT_Trainings\Forms\UserInterface.resx">
+      <DependentUpon>UserInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Forms\TeacherRegistration.resx">
+      <DependentUpon>TeacherRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Forms\AccountRegistration.resx">
+      <DependentUpon>AccountRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Forms\SchoolForm.resx">
+      <DependentUpon>SchoolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PostTest.resx">
+      <DependentUpon>PostTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectSoldierSuperAdmin.resx">
+      <DependentUpon>ProjectSoldierSuperAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectSoldierAdmin.resx">
+      <DependentUpon>ProjectSoldierAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CertParticipationPreviewFrm.resx">
+      <DependentUpon>CertParticipationPreviewFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ProjectSoldierUser.resx">
+      <DependentUpon>ProjectSoldierUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Questionnaire.resx">
+      <DependentUpon>Questionnaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pre_Test.resx">
+      <DependentUpon>Pre_Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Questionnaire2.resx">
+      <DependentUpon>Questionnaire2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetPasswordForm.resx">
+      <DependentUpon>ResetPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingForm.resx">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The_Guardian\Forms\CertAttendancePrintFrm.resx">
+      <DependentUpon>CertAttendancePrintFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The_Guardian\Forms\Questionaire.resx">
+      <DependentUpon>Questionaire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The_Guardian\Forms\UserInterface.resx">
+      <DependentUpon>UserInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_ListOfUsers.xsc">
+      <DependentUpon>DataSet_ListOfUsers.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_ListOfUsers.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_ListOfUsers.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_ListOfUsers.xss">
+      <DependentUpon>DataSet_ListOfUsers.xsd</DependentUpon>
+    </None>
+    <None Include="DS_ListOfTraining.xsc">
+      <DependentUpon>DS_ListOfTraining.xsd</DependentUpon>
+    </None>
+    <None Include="DS_ListOfTraining.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_ListOfTraining.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_ListOfTraining.xss">
+      <DependentUpon>DS_ListOfTraining.xsd</DependentUpon>
+    </None>
+    <None Include="ictSystemsDataSet.xsc">
+      <DependentUpon>ictSystemsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ictSystemsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ictSystemsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ictSystemsDataSet.xss">
+      <DependentUpon>ictSystemsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ictSystemsDataSet1.xsc">
+      <DependentUpon>ictSystemsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ictSystemsDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ictSystemsDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ictSystemsDataSet1.xss">
+      <DependentUpon>ictSystemsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ictSystemsDataSet31.xsc">
+      <DependentUpon>ictSystemsDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="ictSystemsDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ictSystemsDataSet31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ictSystemsDataSet31.xss">
+      <DependentUpon>ictSystemsDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="ictSystemsDataSet41.xsc">
+      <DependentUpon>ictSystemsDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="ictSystemsDataSet41.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ictSystemsDataSet41.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ictSystemsDataSet41.xss">
+      <DependentUpon>ictSystemsDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="PortFoDBDataSet.xsc">
+      <DependentUpon>PortFoDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PortFoDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PortFoDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PortFoDBDataSet.xss">
+      <DependentUpon>PortFoDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProjectSoldier.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\police_127px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\police_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="258882022_314652134045261_4267564725262391161_n.ico" />
+    <Content Include="ANTIQUE LOGO.ico" />
+    <Content Include="logo.png" />
+    <None Include="Resources\settings_50px.png" />
+    <None Include="Resources\settings_40px.png" />
+    <None Include="Resources\settings_127px.png" />
+    <None Include="Resources\settings_100px.png" />
+    <None Include="Resources\fork_lift_127px.png" />
+    <None Include="Resources\fork_lift_100px.png" />
+    <None Include="Resources\favorites_shield_127px.png" />
+    <None Include="Resources\favorites_shield_100px.png" />
+    <None Include="Resources\ICTTrainings_127px.png" />
+    <None Include="Resources\ICTTrainings_100px.png" />
+    <None Include="Resources\cert2.png" />
+    <None Include="Resources\cert1.png" />
+    <None Include="Resources\cert1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ICT_Trainings\Reports\" />
+    <Folder Include="Inventory\DataSets\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,13 @@
+H:\New folder\DepEd_ICT\ICT_Certification 02152022\PortfPlus\obj\x64\Debug\Project Soldier.csproj.AssemblyReference.cache
+H:\New folder\DepEd_ICT\ICT_Certification 02152022\PortfPlus\obj\x64\Debug\Project_Soldier.CertTemplate.resources
+H:\New folder\DepEd_ICT\ICT_Certification 02152022\PortfPlus\obj\x64\Debug\Project_Soldier.Dashboard.resources
+H:\New folder\DepEd_ICT\ICT_Certification 02152022\PortfPlus\obj\x64\Debug\Project_Soldier.Login.resources
+H:\New folder\DepEd_ICT\ICT_Certification 02152022\PortfPlus\obj\x64\Debug\Project_Soldier.ProjectSoldierAdmin.resources
+H:\New folder\DepEd_ICT\ICT_Certification 02152022\PortfPlus\obj\x64\Debug\Project_Soldier.Form1.resources
+H:\New folder\DepEd_ICT\ICT_Certification 02152022\PortfPlus\obj\x64\Debug\Project_Soldier.PrintPreview.resources
+H:\New folder\DepEd_ICT\ICT_Certification 02152022\PortfPlus\obj\x64\Debug\Project_Soldier.Properties.Resources.resources
+H:\New folder\DepEd_ICT\ICT_Certification 02152022\PortfPlus\obj\x64\Debug\Project_Soldier.Report.resources
+H:\New folder\DepEd_ICT\ICT_Certification 02152022\PortfPlus\obj\x64\Debug\Project_Soldier.ProjectSoldierUser.resources
+H:\New folder\DepEd_ICT\ICT_Certification 02152022\PortfPlus\obj\x64\Debug\Project Soldier.csproj.GenerateResource.cache
+H:\New folder\DepEd_ICT\ICT_Certification 02152022\PortfPlus\obj\x64\Debug\Project Soldier.exe.licenses
+H:\New folder\DepEd_ICT\ICT_Certification 02152022\PortfPlus\obj\x64\Debug\Project Soldier.csproj.CoreCompileInputs.cache
